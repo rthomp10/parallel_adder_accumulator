@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vadder_subtractor
+Z0 !s110 1544241692
+!i10b 1
+!s100 2V090::MfKb>K?OA=28V73
+IAn_?hj2I__mQeHRIKJ_h[3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/ryanr/Desktop/parallel_adder_accumulator
+w1544241042
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor.v
+L0 8
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1544241692.000000
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vmultiply
+Z6 !s110 1544241693
+!i10b 1
+!s100 [26IPbR6a308Nh8fAV^og3
+Ilckk`6I7C6eWQY=alLnY91
+R1
+R2
+Z7 w1544240854
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier.v
+L0 13
+R3
+r1
+!s85 0
+31
+Z8 !s108 1544241693.000000
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier.v|
+!s101 -O0
+!i113 1
+R5
+vRAM
+Z9 !s110 1544241694
+!i10b 1
+!s100 8d_^04mZMHHR:Q5W[FHdn0
+IQg^LRCz8E?Q8AfQADTHnn0
+R1
+R2
+w1544237761
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\RAM.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\RAM.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\RAM.v|
+!s101 -O0
+!i113 1
+R5
+n@r@a@m
+vram_tb
+R9
+!i10b 1
+!s100 ;K53[FOYCA_`L=JeSibil3
+I0;faUfITghYeXd_hOJFNR0
+R1
+R2
+w1544239840
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\ram_tb.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\ram_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1544241694.000000
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\ram_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\ram_tb.v|
+!s101 -O0
+!i113 1
+R5
+vscale_multiply
+R6
+!i10b 1
+!s100 N7f=GI`[C`>:7f@JD^SWn0
+IgIh41OU<8KD@<OQ=<^0L43
+R1
+R2
+R7
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\scale_multiply.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\scale_multiply.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\scale_multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\scale_multiply.v|
+!s101 -O0
+!i113 1
+R5
+vtb_multiply
+R6
+!i10b 1
+!s100 Y5NU5MV55fnAH9SjWECO92
+Id2OOKoX6_n[3G`0AZU_Ch3
+R1
+R2
+w1544241609
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier_tb.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier_tb.v
+L0 10
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier_tb.v|
+!s101 -O0
+!i113 1
+R5
+vtb_parallel_adder_accumulator
+R0
+!i10b 1
+!s100 j4:VG`P<a21ZPRTMC^ENC1
+I7nck:d[63BzCIkz;TiB1i1
+R1
+R2
+Z10 w1544241689
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor_tb.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor_tb.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor_tb.v|
+!s101 -O0
+!i113 1
+R5
+vtb_scaly
+R6
+!i10b 1
+!s100 XAYNno^NOMVh:bkLG41Td3
+IkFB>m3YScIK?<?JO^X;?[0
+R1
+R2
+w1544240609
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\scalar_tb.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\scalar_tb.v
+L0 9
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\scalar_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\scalar_tb.v|
+!s101 -O0
+!i113 1
+R5
+vtb_transposy
+R6
+!i10b 1
+!s100 ;cnZ3H6H91`]70QS;6P9b2
+IIz0U]AmK2Wi3G3IW_`iVl3
+R1
+R2
+R10
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose_tb.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose_tb.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose_tb.v|
+!s101 -O0
+!i113 1
+R5
+vtranspose
+R6
+!i10b 1
+!s100 Hn6AVmKCB=Z7HWDK19X;T0
+I4I0j>dnLPOBZOE0`6kI5`3
+R1
+R2
+R7
+8C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose.v
+FC:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose.v|
+!s101 -O0
+!i113 1
+R5

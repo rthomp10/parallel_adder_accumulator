@@ -1,0 +1,70 @@
+C:/Users/ryanr/Desktop/parallel_adder_accumulator/ram_tb.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\ram_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ram_tb
+
+Top level modules:
+	ram_tb
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/adder_subtractor_tb.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tb_parallel_adder_accumulator
+
+Top level modules:
+	tb_parallel_adder_accumulator
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/ALU.v {0 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\ALU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+** Error: (vlog-13069) C:\Users\ryanr\Desktop\parallel_adder_accumulator\ALU.v(12): near "EOF": syntax error, unexpected end of source code.
+
+
+} {4.0 5.0} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/transpose.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\transpose.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module transpose
+
+Top level modules:
+	transpose
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/multiplier.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/scale_multiply.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\scale_multiply.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module scale_multiply
+
+Top level modules:
+	scale_multiply
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/scalar_tb.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\scalar_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tb_scaly
+
+Top level modules:
+	tb_scaly
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/multiplier_tb.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\multiplier_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tb_multiply
+
+Top level modules:
+	tb_multiply
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/adder_subtractor.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\adder_subtractor.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_subtractor
+
+Top level modules:
+	adder_subtractor
+
+} {} {}} C:/Users/ryanr/Desktop/parallel_adder_accumulator/RAM.v {1 {vlog -work work -stats=none {C:\Users\ryanr\Desktop\parallel_adder_accumulator\RAM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}}

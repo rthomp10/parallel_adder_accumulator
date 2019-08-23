@@ -1,0 +1,149 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/ryanr/Desktop/parallel_adder_accumulator/Parallel Adder and Accumulator.mpf}
+# Loading project Parallel Adder and Accumulator
+vsim work.ram_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\ryanr\Desktop\parallel_adder_accumulator\Parallel Adder and Accumulator.mpf 
+# Start time: 21:28:31 on Dec 07,2018
+# Loading work.ram_tb
+# Loading work.RAM
+# ** Warning: (vsim-3015) C:/Users/ryanr/Desktop/parallel_adder_accumulator/ram_tb.v(43): [PCDPC] - Port size (512) does not match connection size (8) for port 'data_in'. The port definition is at: C:/Users/ryanr/Desktop/parallel_adder_accumulator/RAM.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ram_tb/DUT File: C:/Users/ryanr/Desktop/parallel_adder_accumulator/RAM.v
+# ** Warning: (vsim-3015) C:/Users/ryanr/Desktop/parallel_adder_accumulator/ram_tb.v(43): [PCDPC] - Port size (512) does not match connection size (8) for port 'data_out'. The port definition is at: C:/Users/ryanr/Desktop/parallel_adder_accumulator/RAM.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /ram_tb/DUT File: C:/Users/ryanr/Desktop/parallel_adder_accumulator/RAM.v
+# Compile of ram_tb.v was successful.
+# Compile of adder_subtractor.v was successful.
+# Compile of adder_subtractor_tb.v was successful.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of transpose.v was successful.
+# Compile of transpose_tb.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ram_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.tb_scaly
+# vsim 
+# Start time: 21:32:25 on Dec 07,2018
+# Loading work.tb_scaly
+# Loading work.scale_multiply
+# ** Warning: (vsim-3017) C:/Users/ryanr/Desktop/parallel_adder_accumulator/scalar_tb.v(24): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_scaly/scaly File: C:/Users/ryanr/Desktop/parallel_adder_accumulator/scale_multiply.v
+# ** Warning: (vsim-3722) C:/Users/ryanr/Desktop/parallel_adder_accumulator/scalar_tb.v(24): [TFMPC] - Missing connection for port 'in_select'.
+# Compile of scalar_tb.v failed with 1 errors.
+# Compile of scalar_tb.v failed with 7 errors.
+# Compile of scalar_tb.v failed with 7 errors.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_scaly
+# Loading work.scale_multiply
+add wave -position insertpoint  \
+sim:/tb_scaly/clk
+run
+add wave -position insertpoint  \
+sim:/tb_scaly/input1
+add wave -position insertpoint  \
+sim:/tb_scaly/input1 \
+sim:/tb_scaly/input2
+add wave -position insertpoint  \
+sim:/tb_scaly/CLK_PERIOD \
+sim:/tb_scaly/input1 \
+sim:/tb_scaly/input2 \
+sim:/tb_scaly/clk \
+sim:/tb_scaly/select
+add wave -position insertpoint  \
+sim:/tb_scaly/result
+add wave -position insertpoint  \
+sim:/tb_scaly/reset
+restart
+restart
+run
+# Compile of scalar_tb.v was successful.
+restart
+# Loading work.tb_scaly
+run
+# Compile of adder_subtractor.v was successful.
+# Compile of adder_subtractor_tb.v was successful.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of transpose.v was successful.
+# Compile of transpose_tb.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ram_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_scaly
+# Loading work.scale_multiply
+run
+# Compile of adder_subtractor.v was successful.
+# Compile of adder_subtractor_tb.v was successful.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of transpose.v was successful.
+# Compile of transpose_tb.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ram_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of adder_subtractor.v was successful.
+# Compile of adder_subtractor_tb.v was successful.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of transpose.v was successful.
+# Compile of transpose_tb.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ram_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_scaly
+# Loading work.scale_multiply
+run
+# Compile of adder_subtractor.v was successful.
+# Compile of adder_subtractor_tb.v was successful.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of transpose.v was successful.
+# Compile of transpose_tb.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ALU.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of adder_subtractor.v was successful.
+# Compile of adder_subtractor_tb.v was successful.
+# Compile of scale_multiply.v was successful.
+# Compile of scalar_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of transpose.v was successful.
+# Compile of transpose_tb.v was successful.
+# Compile of RAM.v was successful.
+# Compile of ram_tb.v was successful.
+# Compile of ALU.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
